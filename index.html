@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>    
+<body>
+    <div class="header">Lets Play</div>
+    <div class="hContainer">
+        <div class="container">
+            <button class="selection" id="rock">Rock</button>
+            <button class="selection" id="paper">Paper</button>
+            <button class="selection" id="scissors">Scissors</button>
+        </div>
+        <div class="container">
+            <p id="feedback"></p>
+            <button id="reset">Reset Scores</button>
+        </div>
+    </div>
+    <div class="tableContainer">
+        <table>
+            <tr>
+                <thead>
+                    <th>Round</th>
+                    <th>Your Choice</th>
+                    <th>Computer Choice</th>
+                    <th>Winner</th>
+                    <th>Score</th>
+                </thead>
+                <tbody></tbody>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

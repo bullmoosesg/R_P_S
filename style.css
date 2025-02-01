@@ -1,0 +1,82 @@
+*{
+    font-family: 'Asap',sans-serif;
+    background-color: gray;
+    color: yellow;
+}
+
+.hContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 48 px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: right;
+    flex-direction: column;
+}
+
+p{
+    border: white 2px;
+    border-style: solid;
+    min-height: 60px;
+    width: 120px;
+    flex-wrap: wrap;
+}
+
+.header{
+    font-size: 42pt;
+    text-align: center;
+    font-weight: 800;
+    color:white;
+    padding: 24px;
+}
+
+
+
+button{
+    background-color: aquamarine;
+    border: orchid 2px;
+    border-radius: 4px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: navy;
+    font-weight: 600;
+}
+
+table{
+    border: black 2px;
+    border-style: solid;
+    background-color: burlywood;
+    width: max-content;
+    align-content: center;
+    margin: 24px;
+}
+
+thead {
+    border-bottom: black 2px;
+    background-color: tan;
+}
+
+th {
+    background-color: tan;
+    color:navy;
+    padding: 3px 8px;
+}
+
+.logs,tbody,td{
+    background-color: lightgray;
+}
+td{
+    color:black;
+    text-align: center;
+    padding: 3px 8px;
+}
+
+.tableContainer{
+    display: flex;
+    justify-content: center;
+}
